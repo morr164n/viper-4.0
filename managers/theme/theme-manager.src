@@ -19,14 +19,14 @@ THEME_COLORS = {
 ThemeManager = {}
 ThemeManager.mediator = null
 ThemeManager.colors = {
-    "highlight": "#c3201f",
-    "text": "#fff",
-    "secondary": "#343434",
-    "warning": "#fffc33",
-    "info": "#058fab",
-    "success": "#0f0",
-    "danger": "#c3201f",
-    "error": "#c3201f",
+    "highlight": "#1E90FF",
+    "text": "#FFFFFF",
+    "secondary": "#B8DFFF",
+    "warning": "#4FC3F7",
+    "info": "#87CEFA",
+    "success": "#FFFFFF",
+    "danger": "#1E90FF",
+    "error": "#1E90FF",
 }
 ThemeManager.colorText = function(color, str)
     color = self.color(color)
